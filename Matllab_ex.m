@@ -2,7 +2,7 @@
 f = @(x) (x^2)*exp(x)
 
 % interval selection 
-x =linspace(0,5,1000);       % h=1, is selcted as interval between 0 and 5
+x =linspace(0,5,1000);       % 10^3 elements, are selected between 0 and 5
 
 % loop iteration over interval length to calculate different values 
 for i = 1:length(x)
@@ -11,7 +11,7 @@ end
 
 %% 
 % Question 2 : find maximum of f(x)
-max_val = max(res);
+max_val = max(res);         % max function to calculate maximum value
 disp(max_val)
 
 
